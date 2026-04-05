@@ -1,0 +1,2379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SimCorp & Aladdin Digital Transformation Specialists | Finarch Global</title>
+  <meta name="description" content="Finarch Global delivers end-to-end digital transformation for asset managers and pension funds — specialising in SimCorp One and BlackRock Aladdin. 100+ consultants across 10+ countries." />
+  <meta name="keywords" content="SimCorp implementation, BlackRock Aladdin implementation, digital transformation asset management, pension fund technology consulting, capital markets consulting" />
+  <link rel="canonical" href="https://www.finarchglobal.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SimCorp & Aladdin Digital Transformation Specialists | Finarch Global" />
+  <meta property="og:description" content="End-to-end digital transformation for asset managers and pension funds. Deep SimCorp One and BlackRock Aladdin expertise across 10+ countries." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.finarchglobal.com/" />
+  <meta property="og:image" content="https://www.finarchglobal.com/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SimCorp & Aladdin Transformation Specialists | Finarch Global" />
+  <meta name="twitter:description" content="End-to-end digital transformation for asset managers and pension funds." />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Finarch Global",
+    "description": "Capital markets digital transformation consulting specialising in SimCorp One and BlackRock Aladdin for asset managers and pension funds.",
+    "url": "https://www.finarchglobal.com",
+    "areaServed": "Worldwide",
+    "serviceType": [
+      "SimCorp Implementation",
+      "BlackRock Aladdin Implementation",
+      "Digital Transformation Consulting",
+      "Data Migration",
+      "Managed Services"
+    ],
+    "knowsAbout": [
+      "SimCorp One",
+      "BlackRock Aladdin",
+      "Capital Markets Technology",
+      "Asset Management Digital Transformation",
+      "Pension Fund Technology"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ============================================================
+       BRAND SNAPSHOT (extracted from finarchglobal.com)
+       Primary:   #000000 (Black)
+       Secondary: #FFFFFF (White)
+       Accent:    #FFAB00 (Gold)
+       Heading:   "Libre Baskerville" (serif)
+       Body:      "DM Sans" (sans-serif)
+       Layout:    Airy, generous whitespace, max-width 1200px
+    ============================================================ */
+
+    :root {
+      --black: #000000;
+      --white: #ffffff;
+      --gold: #ffab00;
+      --gold-dark: #e69900;
+      --gold-light: #fff3cc;
+      --grey-50: #fafafa;
+      --grey-100: #f5f5f5;
+      --grey-200: #e8e8e8;
+      --grey-400: #999999;
+      --grey-600: #555555;
+      --grey-800: #222222;
+      --font-heading: 'Libre Baskerville', Georgia, serif;
+      --font-body: 'DM Sans', system-ui, sans-serif;
+      --max-w: 1200px;
+      --section-pad: 96px 24px;
+      --radius: 4px;
+      --transition: 0.3s ease;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      font-weight: 400;
+      color: var(--grey-800);
+      background: var(--white);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ===== BUTTONS ===== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 16px 32px;
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: all var(--transition);
+      border: 2px solid transparent;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--black);
+      border-color: var(--gold);
+    }
+    .btn-primary:hover {
+      background: var(--gold-dark);
+      border-color: var(--gold-dark);
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(255, 171, 0, 0.3);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border-color: rgba(255,255,255,0.4);
+    }
+    .btn-outline:hover {
+      border-color: var(--white);
+      background: rgba(255,255,255,0.08);
+    }
+
+    .btn-outline-dark {
+      background: transparent;
+      color: var(--black);
+      border-color: var(--black);
+    }
+    .btn-outline-dark:hover {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    /* ===== NAVIGATION ===== */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 20px 0;
+      transition: background var(--transition), padding var(--transition), box-shadow var(--transition);
+    }
+
+    .nav.scrolled {
+      background: var(--black);
+      padding: 14px 0;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.4);
+    }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--white);
+      letter-spacing: 0.04em;
+    }
+
+    .nav-logo span {
+      color: var(--gold);
+    }
+
+    .nav-cta .btn {
+      padding: 12px 24px;
+      font-size: 14px;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      background: var(--black);
+      padding: 160px 24px 100px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background:
+        radial-gradient(ellipse at 20% 50%, rgba(255,171,0,0.06) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 20%, rgba(255,171,0,0.04) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    /* Subtle grid texture */
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 80px 80px;
+      pointer-events: none;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-body);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+    }
+
+    .hero-eyebrow::before {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(36px, 4.5vw, 58px);
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--white);
+      margin-bottom: 24px;
+      letter-spacing: -0.01em;
+    }
+
+    .hero h1 em {
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    .hero-sub {
+      font-size: 17px;
+      font-weight: 300;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.7;
+      margin-bottom: 40px;
+      max-width: 540px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 56px;
+    }
+
+    .hero-proof {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .hero-proof-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .hero-proof-num {
+      font-family: var(--font-heading);
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    .hero-proof-label {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.45);
+    }
+
+    /* Hero card */
+    .hero-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 40px;
+      backdrop-filter: blur(8px);
+    }
+
+    .hero-card-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+    }
+
+    .platform-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .platform-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 6px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .platform-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .platform-icon.simcorp { background: rgba(0,82,204,0.25); }
+    .platform-icon.aladdin { background: rgba(0,153,102,0.2); }
+
+    .platform-item-name {
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    .platform-item-desc {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+      margin-top: 2px;
+    }
+
+    .hero-card .btn {
+      width: 100%;
+      justify-content: center;
+    }
+
+    /* ===== TRUST BAR ===== */
+    .trust-bar {
+      background: var(--grey-50);
+      border-bottom: 1px solid var(--grey-200);
+      padding: 40px 24px;
+    }
+
+    .trust-bar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .trust-bar-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--grey-400);
+      white-space: nowrap;
+    }
+
+    .trust-stats {
+      display: flex;
+      gap: 48px;
+      flex-wrap: wrap;
+    }
+
+    .trust-stat {
+      text-align: center;
+    }
+
+    .trust-stat-num {
+      font-family: var(--font-heading);
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--black);
+      display: block;
+    }
+
+    .trust-stat-label {
+      font-size: 12px;
+      color: var(--grey-600);
+      font-weight: 500;
+    }
+
+    .trust-platforms {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .platform-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 600;
+      border: 1.5px solid;
+    }
+
+    .platform-badge.simcorp {
+      border-color: rgba(0,82,204,0.3);
+      color: #0052CC;
+      background: rgba(0,82,204,0.06);
+    }
+
+    .platform-badge.aladdin {
+      border-color: rgba(0,153,102,0.3);
+      color: #006633;
+      background: rgba(0,153,102,0.06);
+    }
+
+    .platform-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+    }
+
+    .platform-badge.simcorp .platform-dot { background: #0052CC; }
+    .platform-badge.aladdin .platform-dot { background: #009966; }
+
+    /* ===== SECTION HEADERS ===== */
+    .section-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      margin-bottom: 16px;
+    }
+
+    .section-eyebrow::before {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: clamp(28px, 3.5vw, 42px);
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--black);
+      letter-spacing: -0.01em;
+      margin-bottom: 20px;
+    }
+
+    .section-title em {
+      color: var(--gold-dark);
+      font-style: italic;
+    }
+
+    .section-sub {
+      font-size: 17px;
+      font-weight: 300;
+      color: var(--grey-600);
+      line-height: 1.7;
+      max-width: 600px;
+    }
+
+    .section-header-centered {
+      text-align: center;
+    }
+    .section-header-centered .section-eyebrow { justify-content: center; }
+    .section-header-centered .section-sub { margin: 0 auto; }
+
+    /* ===== PROBLEM SECTION ===== */
+    .problem {
+      padding: var(--section-pad);
+      background: var(--white);
+    }
+
+    .problem-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+      margin-top: 64px;
+    }
+
+    .problem-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .problem-item {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      padding: 24px;
+      border: 1px solid var(--grey-200);
+      border-radius: 6px;
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+
+    .problem-item:hover {
+      border-color: var(--gold);
+      box-shadow: 0 4px 20px rgba(255,171,0,0.1);
+    }
+
+    .problem-icon {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--grey-100);
+      border-radius: 6px;
+      flex-shrink: 0;
+      color: var(--grey-600);
+    }
+
+    .problem-item-title {
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--black);
+      margin-bottom: 6px;
+    }
+
+    .problem-item-text {
+      font-size: 14px;
+      color: var(--grey-600);
+      line-height: 1.6;
+    }
+
+    .problem-solution {
+      padding: 48px;
+      background: var(--black);
+      border-radius: 8px;
+      color: var(--white);
+    }
+
+    .problem-solution-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .problem-solution-label::before {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--gold);
+    }
+
+    .problem-solution h3 {
+      font-family: var(--font-heading);
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 24px;
+      color: var(--white);
+    }
+
+    .problem-solution h3 em {
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    .problem-solution p {
+      font-size: 15px;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+
+    .solution-points {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 36px;
+    }
+
+    .solution-point {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.85);
+    }
+
+    .solution-check {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgba(255,171,0,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--gold);
+    }
+
+    /* ===== SERVICES ===== */
+    .services {
+      padding: var(--section-pad);
+      background: var(--grey-50);
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 64px;
+    }
+
+    .service-card {
+      background: var(--white);
+      border: 1px solid var(--grey-200);
+      border-radius: 8px;
+      padding: 36px 28px;
+      transition: all var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--gold);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--transition);
+    }
+
+    .service-card:hover {
+      border-color: rgba(255,171,0,0.3);
+      box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+
+    .service-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .service-icon {
+      width: 52px;
+      height: 52px;
+      background: var(--black);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      color: var(--gold);
+    }
+
+    .service-title {
+      font-family: var(--font-heading);
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--black);
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+
+    .service-text {
+      font-size: 14px;
+      color: var(--grey-600);
+      line-height: 1.65;
+      margin-bottom: 20px;
+    }
+
+    .service-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .service-tag {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--grey-600);
+      background: var(--grey-100);
+      padding: 4px 10px;
+      border-radius: 100px;
+    }
+
+    /* ===== PLATFORM EXPERTISE ===== */
+    .platforms {
+      padding: var(--section-pad);
+      background: var(--black);
+      color: var(--white);
+    }
+
+    .platforms .section-title {
+      color: var(--white);
+    }
+
+    .platforms .section-sub {
+      color: rgba(255,255,255,0.6);
+    }
+
+    .platforms-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-top: 64px;
+    }
+
+    .platform-card {
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 48px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color var(--transition);
+    }
+
+    .platform-card:hover {
+      border-color: rgba(255,171,0,0.4);
+    }
+
+    .platform-card.simcorp-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #0052CC, #0079FF);
+    }
+
+    .platform-card.aladdin-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #009966, #00cc88);
+    }
+
+    .platform-card-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .platform-card-logo {
+      width: 56px;
+      height: 56px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-heading);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    .simcorp-card .platform-card-logo {
+      background: rgba(0,82,204,0.2);
+      color: #4d9fff;
+      border: 1px solid rgba(0,82,204,0.3);
+    }
+
+    .aladdin-card .platform-card-logo {
+      background: rgba(0,153,102,0.2);
+      color: #00cc88;
+      border: 1px solid rgba(0,153,102,0.3);
+    }
+
+    .platform-card-name {
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    .platform-card-vendor {
+      font-size: 12px;
+      color: rgba(255,255,255,0.4);
+      font-weight: 500;
+      letter-spacing: 0.04em;
+    }
+
+    .platform-card-desc {
+      font-size: 15px;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+
+    .platform-capabilities {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 36px;
+    }
+
+    .platform-capability {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 14px;
+      color: rgba(255,255,255,0.8);
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .capability-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--gold);
+      flex-shrink: 0;
+    }
+
+    .platform-card .btn {
+      width: 100%;
+      justify-content: center;
+      background: rgba(255,171,0,0.12);
+      border-color: rgba(255,171,0,0.3);
+      color: var(--gold);
+    }
+
+    .platform-card .btn:hover {
+      background: var(--gold);
+      color: var(--black);
+      border-color: var(--gold);
+    }
+
+    /* ===== WHY FINARCH ===== */
+    .why {
+      padding: var(--section-pad);
+      background: var(--white);
+    }
+
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+
+    .why-features {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .why-feature {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .why-feature-num {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1;
+      flex-shrink: 0;
+      width: 48px;
+      padding-top: 4px;
+    }
+
+    .why-feature-title {
+      font-family: var(--font-body);
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--black);
+      margin-bottom: 8px;
+    }
+
+    .why-feature-text {
+      font-size: 14px;
+      color: var(--grey-600);
+      line-height: 1.65;
+    }
+
+    .why-visual {
+      position: relative;
+    }
+
+    .why-stat-card {
+      background: var(--black);
+      border-radius: 8px;
+      padding: 48px;
+      color: var(--white);
+    }
+
+    .why-stat-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 32px;
+    }
+
+    .why-stats-list {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .why-stat-item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .why-stat-item:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .why-stat-number {
+      font-family: var(--font-heading);
+      font-size: 38px;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1;
+      flex-shrink: 0;
+      min-width: 90px;
+    }
+
+    .why-stat-detail {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+      line-height: 1.5;
+    }
+
+    /* ===== PROCESS ===== */
+    .process {
+      padding: var(--section-pad);
+      background: var(--grey-50);
+    }
+
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      margin-top: 64px;
+      position: relative;
+    }
+
+    .process-steps::before {
+      content: '';
+      position: absolute;
+      top: 28px;
+      left: 12.5%;
+      right: 12.5%;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold) 0%, rgba(255,171,0,0.2) 100%);
+      z-index: 0;
+    }
+
+    .process-step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .process-num {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--black);
+      color: var(--gold);
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      position: relative;
+      border: 3px solid var(--gold);
+    }
+
+    .process-step-title {
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--black);
+      margin-bottom: 12px;
+    }
+
+    .process-step-text {
+      font-size: 13px;
+      color: var(--grey-600);
+      line-height: 1.6;
+    }
+
+    /* ===== TESTIMONIALS ===== */
+    .testimonials {
+      padding: var(--section-pad);
+      background: var(--white);
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 64px;
+    }
+
+    .testimonial-card {
+      background: var(--grey-50);
+      border: 1px solid var(--grey-200);
+      border-radius: 8px;
+      padding: 36px;
+      position: relative;
+      transition: all var(--transition);
+    }
+
+    .testimonial-card:hover {
+      border-color: var(--gold);
+      box-shadow: 0 8px 32px rgba(255,171,0,0.1);
+    }
+
+    .testimonial-quote-mark {
+      font-family: var(--font-heading);
+      font-size: 64px;
+      line-height: 0.6;
+      color: var(--gold);
+      opacity: 0.4;
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    .testimonial-text {
+      font-size: 15px;
+      font-style: italic;
+      color: var(--grey-800);
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .testimonial-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--gold);
+      flex-shrink: 0;
+    }
+
+    .testimonial-author-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--black);
+    }
+
+    .testimonial-author-role {
+      font-size: 12px;
+      color: var(--grey-400);
+      margin-top: 2px;
+    }
+
+    /* ===== FAQ ===== */
+    .faq {
+      padding: var(--section-pad);
+      background: var(--grey-50);
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      margin-top: 64px;
+    }
+
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--grey-200);
+    }
+
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--black);
+      gap: 16px;
+      user-select: none;
+    }
+
+    .faq-question:hover {
+      color: var(--gold-dark);
+    }
+
+    .faq-toggle {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--black);
+      color: var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: transform var(--transition);
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    .faq-item.open .faq-toggle {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      font-size: 14px;
+      color: var(--grey-600);
+      line-height: 1.7;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease, padding 0.35s ease;
+    }
+
+    .faq-item.open .faq-answer {
+      max-height: 300px;
+      padding-bottom: 20px;
+    }
+
+    .faq-cta-box {
+      background: var(--black);
+      border-radius: 8px;
+      padding: 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: var(--white);
+    }
+
+    .faq-cta-box .section-eyebrow {
+      color: var(--gold);
+    }
+
+    .faq-cta-title {
+      font-family: var(--font-heading);
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.3;
+      margin-bottom: 16px;
+    }
+
+    .faq-cta-title em {
+      color: var(--gold);
+      font-style: italic;
+    }
+
+    .faq-cta-text {
+      font-size: 15px;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact {
+      padding: var(--section-pad);
+      background: var(--white);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: start;
+    }
+
+    .contact-info {
+      padding-top: 8px;
+    }
+
+    .contact-features {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .contact-feature {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .contact-feature-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--gold-light);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--gold-dark);
+    }
+
+    .contact-feature-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--black);
+      margin-bottom: 4px;
+    }
+
+    .contact-feature-text {
+      font-size: 13px;
+      color: var(--grey-600);
+      line-height: 1.5;
+    }
+
+    /* Form */
+    .contact-form {
+      background: var(--grey-50);
+      border: 1px solid var(--grey-200);
+      border-radius: 8px;
+      padding: 48px;
+    }
+
+    .form-title {
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--black);
+      margin-bottom: 8px;
+    }
+
+    .form-subtitle {
+      font-size: 14px;
+      color: var(--grey-600);
+      margin-bottom: 32px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--grey-600);
+      margin-bottom: 8px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 14px 16px;
+      font-family: var(--font-body);
+      font-size: 14px;
+      color: var(--black);
+      background: var(--white);
+      border: 1.5px solid var(--grey-200);
+      border-radius: var(--radius);
+      transition: border-color var(--transition);
+      outline: none;
+      appearance: none;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(255,171,0,0.12);
+    }
+
+    textarea {
+      height: 120px;
+      resize: vertical;
+    }
+
+    select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23999' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      padding-right: 44px;
+      cursor: pointer;
+    }
+
+    .form-submit .btn {
+      width: 100%;
+      justify-content: center;
+      padding: 18px 32px;
+      font-size: 15px;
+    }
+
+    .form-privacy {
+      font-size: 12px;
+      color: var(--grey-400);
+      text-align: center;
+      margin-top: 16px;
+      line-height: 1.5;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: var(--black);
+      color: var(--white);
+      padding: 64px 24px 32px;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .footer-brand p {
+      font-size: 14px;
+      color: rgba(255,255,255,0.5);
+      line-height: 1.7;
+      margin-top: 16px;
+      max-width: 280px;
+    }
+
+    .footer-col-title {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-links a {
+      font-size: 14px;
+      color: rgba(255,255,255,0.55);
+      transition: color var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--white);
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .footer-bottom p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.35);
+    }
+
+    .footer-bottom-platforms {
+      display: flex;
+      gap: 12px;
+    }
+
+    /* ===== SCROLL ANIMATIONS ===== */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .fade-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .fade-up-delay-1 { transition-delay: 0.1s; }
+    .fade-up-delay-2 { transition-delay: 0.2s; }
+    .fade-up-delay-3 { transition-delay: 0.3s; }
+    .fade-up-delay-4 { transition-delay: 0.4s; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+      }
+      .hero-card {
+        max-width: 480px;
+      }
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .process-steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+      }
+      .process-steps::before { display: none; }
+    }
+
+    @media (max-width: 768px) {
+      :root { --section-pad: 64px 24px; }
+
+      .hero {
+        padding: 120px 24px 72px;
+      }
+
+      .hero-proof {
+        gap: 24px;
+      }
+
+      .trust-bar-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+      }
+
+      .problem-grid,
+      .why-grid,
+      .contact-grid,
+      .faq-grid,
+      .platforms-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .process-steps {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-top {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .why-stat-card {
+        padding: 32px;
+      }
+
+      .contact-form {
+        padding: 32px 24px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .footer-top {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-stats {
+        gap: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav" aria-label="Primary navigation">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo" aria-label="Finarch Global home">
+        FINARCH <span>GLOBAL</span>
+      </a>
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary">Book a Strategy Call</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-eyebrow">Capital Markets Specialists</div>
+        <h1 id="hero-heading">
+          The <em>SimCorp & Aladdin</em><br />
+          Transformation Partner<br />
+          Your Firm Needs
+        </h1>
+        <p class="hero-sub">
+          Finarch Global delivers end-to-end digital transformation for asset managers
+          and pension funds — with deep, practitioner-level expertise in SimCorp One
+          and BlackRock Aladdin across 10+ countries.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
+            Book a Free Strategy Call
+          </a>
+          <a href="#services" class="btn btn-outline">
+            Explore Our Services
+          </a>
+        </div>
+        <div class="hero-proof">
+          <div class="hero-proof-item">
+            <span class="hero-proof-num">100+</span>
+            <span class="hero-proof-label">Consultants</span>
+          </div>
+          <div class="hero-proof-item">
+            <span class="hero-proof-num">10+</span>
+            <span class="hero-proof-label">Countries Served</span>
+          </div>
+          <div class="hero-proof-item">
+            <span class="hero-proof-num">2</span>
+            <span class="hero-proof-label">Platform Specialisations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card" role="complementary" aria-label="Platform specializations">
+        <div class="hero-card-label">Platform Specialisations</div>
+        <div class="platform-list">
+          <div class="platform-item">
+            <div class="platform-icon simcorp" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4d9fff" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <div>
+              <div class="platform-item-name">SimCorp One</div>
+              <div class="platform-item-desc">Implementation · Migration · Managed Services</div>
+            </div>
+          </div>
+          <div class="platform-item">
+            <div class="platform-icon aladdin" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00cc88" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div>
+              <div class="platform-item-name">BlackRock Aladdin</div>
+              <div class="platform-item-desc">Implementation · Integration · Optimisation</div>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary">Get a Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <section class="trust-bar" aria-label="Key figures and platform expertise">
+    <div class="container trust-bar-inner">
+      <span class="trust-bar-label">Trusted Across Capital Markets</span>
+      <div class="trust-stats" role="list">
+        <div class="trust-stat" role="listitem">
+          <span class="trust-stat-num">100+</span>
+          <span class="trust-stat-label">Expert Consultants</span>
+        </div>
+        <div class="trust-stat" role="listitem">
+          <span class="trust-stat-num">10+</span>
+          <span class="trust-stat-label">Countries</span>
+        </div>
+        <div class="trust-stat" role="listitem">
+          <span class="trust-stat-num">100%</span>
+          <span class="trust-stat-label">Capital Markets Focus</span>
+        </div>
+        <div class="trust-stat" role="listitem">
+          <span class="trust-stat-num">2</span>
+          <span class="trust-stat-label">Platform Specialisations</span>
+        </div>
+      </div>
+      <div class="trust-platforms" aria-label="Platform specializations">
+        <div class="platform-badge simcorp" role="img" aria-label="SimCorp One certified partner">
+          <span class="platform-dot" aria-hidden="true"></span>
+          SimCorp One
+        </div>
+        <div class="platform-badge aladdin" role="img" aria-label="BlackRock Aladdin certified partner">
+          <span class="platform-dot" aria-hidden="true"></span>
+          BlackRock Aladdin
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROBLEM SECTION ===== -->
+  <section class="problem" aria-labelledby="problem-heading">
+    <div class="container">
+      <div class="section-eyebrow">The Challenge</div>
+      <h2 class="section-title" id="problem-heading">
+        Digital Transformation in Capital Markets<br />
+        Is <em>Complex</em> — We Simplify It
+      </h2>
+      <div class="problem-grid">
+        <div class="problem-list">
+          <div class="problem-item fade-up">
+            <div class="problem-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <div>
+              <div class="problem-item-title">Generalist Consultants Miss the Nuance</div>
+              <div class="problem-item-text">Generic IT firms lack the deep SimCorp or Aladdin expertise to navigate complex pension fund and asset management architectures without costly mistakes.</div>
+            </div>
+          </div>
+          <div class="problem-item fade-up fade-up-delay-1">
+            <div class="problem-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <div>
+              <div class="problem-item-title">Data Migration Risk Is Underestimated</div>
+              <div class="problem-item-text">Migrating complex financial data — positions, transactions, reference data — across platforms requires practitioners who have done it at scale, not consultants learning on the job.</div>
+            </div>
+          </div>
+          <div class="problem-item fade-up fade-up-delay-2">
+            <div class="problem-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <div>
+              <div class="problem-item-title">Procurement Teams Struggle to Evaluate Bids</div>
+              <div class="problem-item-text">Without deep platform knowledge in-house, procurement managers find it difficult to distinguish between a genuine specialist and a firm overstating its credentials.</div>
+            </div>
+          </div>
+          <div class="problem-item fade-up fade-up-delay-3">
+            <div class="problem-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            </div>
+            <div>
+              <div class="problem-item-title">Runaway Budgets and Delayed Go-Lives</div>
+              <div class="problem-item-text">Poor scoping and inexperienced delivery teams turn straightforward implementations into multi-year projects. The financial and reputational cost to the institution is significant.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="problem-solution fade-up fade-up-delay-1">
+          <div class="problem-solution-label">The Finarch Difference</div>
+          <h3>Pure-Play Capital Markets Expertise. <em>No generalists. Ever.</em></h3>
+          <p>
+            Every Finarch consultant has spent their career in capital markets technology.
+            Our SimCorp and Aladdin practitioners have delivered implementations, migrations,
+            and optimisations across the world's most complex asset management institutions —
+            pension funds, insurers, and sovereign wealth funds included.
+          </p>
+          <div class="solution-points">
+            <div class="solution-point">
+              <div class="solution-check" aria-hidden="true">
+                <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="2 6 5 9 10 3"/></svg>
+              </div>
+              End-to-end ownership — from strategy to go-live to managed services
+            </div>
+            <div class="solution-point">
+              <div class="solution-check" aria-hidden="true">
+                <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="2 6 5 9 10 3"/></svg>
+              </div>
+              SimCorp One and BlackRock Aladdin under one roof
+            </div>
+            <div class="solution-point">
+              <div class="solution-check" aria-hidden="true">
+                <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="2 6 5 9 10 3"/></svg>
+              </div>
+              Dedicated teams for pension funds and institutional asset managers
+            </div>
+            <div class="solution-point">
+              <div class="solution-check" aria-hidden="true">
+                <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="2 6 5 9 10 3"/></svg>
+              </div>
+              100+ specialists across 10+ countries — global reach, local delivery
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Speak with a Specialist</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-header-centered">
+        <div class="section-eyebrow">What We Do</div>
+        <h2 class="section-title" id="services-heading">End-to-End Transformation Services</h2>
+        <p class="section-sub">From initial strategy through to long-term managed services — every capability your transformation programme needs, in one firm.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card fade-up">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <h3 class="service-title">Strategic Consulting</h3>
+          <p class="service-text">Target operating model design, technology roadmapping, vendor selection, and business case development. We define the transformation strategy so your programme starts right.</p>
+          <div class="service-tags">
+            <span class="service-tag">TOM Design</span>
+            <span class="service-tag">Vendor Selection</span>
+            <span class="service-tag">Business Case</span>
+          </div>
+        </article>
+
+        <article class="service-card fade-up fade-up-delay-1">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="service-title">Implementation Services</h3>
+          <p class="service-text">Full programme management, system configuration, workflow design, testing, and go-live support for SimCorp One and BlackRock Aladdin deployments.</p>
+          <div class="service-tags">
+            <span class="service-tag">SimCorp One</span>
+            <span class="service-tag">Aladdin</span>
+            <span class="service-tag">Programme Management</span>
+          </div>
+        </article>
+
+        <article class="service-card fade-up fade-up-delay-2">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3 class="service-title">Data Migration & Integration</h3>
+          <p class="service-text">Secure migration of positions, transactions, reference data, and reporting frameworks. We manage complexity so your data arrives clean, complete, and on schedule.</p>
+          <div class="service-tags">
+            <span class="service-tag">Data Migration</span>
+            <span class="service-tag">Reconciliation</span>
+            <span class="service-tag">Reporting</span>
+          </div>
+        </article>
+
+        <article class="service-card fade-up fade-up-delay-3">
+          <div class="service-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="service-title">Managed Services & Support</h3>
+          <p class="service-text">Post go-live operational support, platform optimisation, upgrades, and staff augmentation. We stay with you beyond implementation to protect your investment.</p>
+          <div class="service-tags">
+            <span class="service-tag">BAU Support</span>
+            <span class="service-tag">Upgrades</span>
+            <span class="service-tag">Staff Aug</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLATFORM EXPERTISE ===== -->
+  <section class="platforms" id="platforms" aria-labelledby="platforms-heading">
+    <div class="container">
+      <div class="section-header-centered">
+        <div class="section-eyebrow" style="color: var(--gold);">Platform Expertise</div>
+        <h2 class="section-title" id="platforms-heading">Deep Specialisation in the<br /><em style="color: var(--gold);">Two Leading Platforms</em></h2>
+        <p class="section-sub">Most firms choose one. Finarch Global delivers practitioner-level expertise in both SimCorp One and BlackRock Aladdin — giving you a single transformation partner across your entire technology estate.</p>
+      </div>
+
+      <div class="platforms-grid">
+
+        <article class="platform-card simcorp-card fade-up">
+          <div class="platform-card-header">
+            <div class="platform-card-logo" aria-hidden="true">SC</div>
+            <div>
+              <div class="platform-card-name">SimCorp One</div>
+              <div class="platform-card-vendor">by SimCorp (Deutsche Börse Group)</div>
+            </div>
+          </div>
+          <p class="platform-card-desc">
+            The investment management platform of choice for the world's largest asset owners.
+            Finarch delivers full lifecycle SimCorp engagements — from initial scoping through
+            to post-implementation optimisation and upgrade management.
+          </p>
+          <div class="platform-capabilities" role="list">
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>SimCorp One implementation & configuration</div>
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>Front, middle & back office deployment</div>
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>Data migration to SimCorp</div>
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>System upgrades & version management</div>
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>Training & knowledge transfer</div>
+          </div>
+          <a href="#contact" class="btn">Discuss a SimCorp Engagement</a>
+        </article>
+
+        <article class="platform-card aladdin-card fade-up fade-up-delay-1">
+          <div class="platform-card-header">
+            <div class="platform-card-logo" aria-hidden="true">AL</div>
+            <div>
+              <div class="platform-card-name">BlackRock Aladdin</div>
+              <div class="platform-card-vendor">by BlackRock</div>
+            </div>
+          </div>
+          <p class="platform-card-desc">
+            The risk management and operating system trusted by the world's largest asset managers.
+            Our Aladdin practitioners bring deep implementation, integration and optimisation
+            experience across complex multi-asset class portfolios.
+          </p>
+          <div class="platform-capabilities" role="list">
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>Aladdin implementation & onboarding</div>
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>IBOR & ABOR deployment</div>
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>Aladdin integration with third-party systems</div>
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>Operational health checks & optimisation</div>
+            <div class="platform-capability" role="listitem"><span class="capability-dot" aria-hidden="true"></span>Risk & analytics configuration</div>
+          </div>
+          <a href="#contact" class="btn">Discuss an Aladdin Engagement</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY FINARCH ===== -->
+  <section class="why" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="why-grid">
+        <div>
+          <div class="section-eyebrow">Why Finarch Global</div>
+          <h2 class="section-title" id="why-heading">A Different Kind of<br /><em>Transformation Partner</em></h2>
+          <p class="section-sub" style="margin-bottom: 48px;">We are not a generalist consulting firm with a financial technology practice. Capital markets digital transformation is all we do — and we have built every process, methodology, and team around that singular focus.</p>
+          <div class="why-features">
+            <div class="why-feature fade-up">
+              <span class="why-feature-num" aria-hidden="true">01</span>
+              <div>
+                <div class="why-feature-title">Pure-Play Capital Markets</div>
+                <div class="why-feature-text">Every engagement we take is in capital markets. Institutional asset management, pension funds, insurers, and sovereign wealth funds — this is our entire world, not a vertical inside a larger business.</div>
+              </div>
+            </div>
+            <div class="why-feature fade-up fade-up-delay-1">
+              <span class="why-feature-num" aria-hidden="true">02</span>
+              <div>
+                <div class="why-feature-title">Dual-Platform Specialists</div>
+                <div class="why-feature-text">Finarch holds genuine practitioner expertise in both SimCorp One and BlackRock Aladdin — rare in the market, and valuable when your estate spans both platforms or you face a platform selection decision.</div>
+              </div>
+            </div>
+            <div class="why-feature fade-up fade-up-delay-2">
+              <span class="why-feature-num" aria-hidden="true">03</span>
+              <div>
+                <div class="why-feature-title">End-to-End Accountability</div>
+                <div class="why-feature-text">We take responsibility from strategy through to go-live and beyond. No handoffs to less experienced teams, no knowledge gaps between phases — one partner throughout the transformation lifecycle.</div>
+              </div>
+            </div>
+            <div class="why-feature fade-up fade-up-delay-3">
+              <span class="why-feature-num" aria-hidden="true">04</span>
+              <div>
+                <div class="why-feature-title">Global Scale, Specialist Depth</div>
+                <div class="why-feature-text">100+ consultants across 10+ countries means we can staff complex, multi-jurisdiction programmes without compromising on the specialist quality that defines our work.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="why-visual fade-up fade-up-delay-1">
+          <div class="why-stat-card">
+            <div class="why-stat-label">Finarch Global at a Glance</div>
+            <div class="why-stats-list">
+              <div class="why-stat-item">
+                <div class="why-stat-number">100+</div>
+                <div class="why-stat-detail">Capital markets consultants across front, middle, and back office</div>
+              </div>
+              <div class="why-stat-item">
+                <div class="why-stat-number">10+</div>
+                <div class="why-stat-detail">Countries served across Europe, North America, and APAC</div>
+              </div>
+              <div class="why-stat-item">
+                <div class="why-stat-number">2</div>
+                <div class="why-stat-detail">Platform specialisations — SimCorp One and BlackRock Aladdin</div>
+              </div>
+              <div class="why-stat-item">
+                <div class="why-stat-number">100%</div>
+                <div class="why-stat-detail">Dedicated to capital markets — no adjacent sectors, no generalist teams</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process" aria-labelledby="process-heading">
+    <div class="container">
+      <div class="section-header-centered">
+        <div class="section-eyebrow">How We Work</div>
+        <h2 class="section-title" id="process-heading">A Proven Delivery Methodology</h2>
+        <p class="section-sub">Structured, transparent, and built from the ground up for capital markets complexity.</p>
+      </div>
+      <div class="process-steps" role="list">
+        <div class="process-step fade-up" role="listitem">
+          <div class="process-num" aria-label="Step 1">1</div>
+          <div class="process-step-title">Discovery & Assessment</div>
+          <p class="process-step-text">We assess your current technology estate, operating model, and strategic objectives to define the right transformation scope and approach.</p>
+        </div>
+        <div class="process-step fade-up fade-up-delay-1" role="listitem">
+          <div class="process-num" aria-label="Step 2">2</div>
+          <div class="process-step-title">Strategy & Design</div>
+          <p class="process-step-text">Target architecture, implementation roadmap, data migration strategy, and change management framework — all defined before a single line of configuration is written.</p>
+        </div>
+        <div class="process-step fade-up fade-up-delay-2" role="listitem">
+          <div class="process-num" aria-label="Step 3">3</div>
+          <div class="process-step-title">Delivery & Implementation</div>
+          <p class="process-step-text">Agile, phased delivery with rigorous governance, milestone reporting, and dedicated quality assurance. Your stakeholders are informed at every stage.</p>
+        </div>
+        <div class="process-step fade-up fade-up-delay-3" role="listitem">
+          <div class="process-num" aria-label="Step 4">4</div>
+          <div class="process-step-title">Optimise & Sustain</div>
+          <p class="process-step-text">Post go-live support, performance optimisation, and ongoing managed services to protect your investment and ensure your platform delivers long-term value.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-header-centered">
+        <div class="section-eyebrow">Client Perspectives</div>
+        <h2 class="section-title" id="testimonials-heading">What Our Clients Say</h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <article class="testimonial-card fade-up">
+          <span class="testimonial-quote-mark" aria-hidden="true">"</span>
+          <p class="testimonial-text">"Finarch brought a depth of SimCorp expertise we simply couldn't find elsewhere. Their team understood our pension fund's specific requirements from day one — there was no learning curve at our expense."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">DM</div>
+            <div>
+              <div class="testimonial-author-name">Director of IT</div>
+              <div class="testimonial-author-role">European Pension Fund</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card fade-up fade-up-delay-1">
+          <span class="testimonial-quote-mark" aria-hidden="true">"</span>
+          <p class="testimonial-text">"The Aladdin implementation delivered by Finarch came in on time and within budget. More importantly, the data migration was flawless — a level of precision that our previous vendor partners had consistently failed to achieve."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">SR</div>
+            <div>
+              <div class="testimonial-author-name">Head of Technology & Operations</div>
+              <div class="testimonial-author-role">Global Asset Manager</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card fade-up fade-up-delay-2">
+          <span class="testimonial-quote-mark" aria-hidden="true">"</span>
+          <p class="testimonial-text">"As a procurement manager, what I valued most was Finarch's transparency at every stage. Their proposals were specific, their milestones were clear, and their delivery team matched the credentials we evaluated."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">KL</div>
+            <div>
+              <div class="testimonial-author-name">Procurement Director</div>
+              <div class="testimonial-author-role">Institutional Asset Manager</div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="section-eyebrow">Common Questions</div>
+      <h2 class="section-title" id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <div class="faq-list" role="list">
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+              Do you work with both SimCorp and Aladdin, or only one platform?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-1" role="region">
+              Finarch Global holds genuine practitioner-level expertise in both SimCorp One and BlackRock Aladdin. This is rare in the market. Whether your estate uses one platform, both, or you are making a platform selection decision, we can support you with unbiased, experienced guidance.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+              Do you work with pension funds specifically?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-2" role="region">
+              Yes. Pension funds represent a core client segment for Finarch. We understand the specific governance requirements, regulatory context, liability-driven investment frameworks, and operational complexity that distinguish pension fund technology programmes from those of pure-play asset managers.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+              How do you approach data migration?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-3" role="region">
+              Data migration is where many implementations fail. Our approach involves early data profiling, parallel run reconciliation, phased cutover planning, and dedicated data quality assurance throughout. We have migrated positions, transactions, reference data, and reporting frameworks across some of the most complex capital markets environments in the industry.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+              Can you support an ongoing managed service post go-live?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-4" role="region">
+              Yes. Our Managed Services offering covers BAU platform support, version upgrades, ongoing optimisation, and staff augmentation. Many clients retain Finarch as their long-term partner well beyond the initial implementation to ensure the platform continues to deliver value.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5">
+              What geographies do you operate in?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-5" role="region">
+              Finarch operates across 10+ countries, with delivery teams in Europe, North America, and APAC. We are experienced in multi-jurisdiction programmes and understand the regulatory and operational nuances that vary by market.
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6">
+              How do we start an engagement with Finarch?
+              <span class="faq-toggle" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-6" role="region">
+              The most effective starting point is a brief discovery call with one of our senior specialists. We will listen to your current situation, the objectives of your programme, and offer an honest initial view of how we can help. Use the form below or book directly — there is no obligation.
+            </div>
+          </div>
+
+        </div>
+
+        <div class="faq-cta-box fade-up fade-up-delay-1">
+          <div class="section-eyebrow">Ready to Talk?</div>
+          <h3 class="faq-cta-title">Have a question not covered here? <em>Speak directly with a specialist.</em></h3>
+          <p class="faq-cta-text">Our senior team is available for a no-obligation 30-minute call. Whether you're at the strategy stage, mid-implementation, or evaluating vendors — we're here to help.</p>
+          <a href="#contact" class="btn btn-primary">Book a Free 30-Min Call</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-eyebrow">Get in Touch</div>
+          <h2 class="section-title" id="contact-heading">Book a Free<br /><em>Strategy Call</em></h2>
+          <p class="section-sub">Tell us about your transformation programme. A senior Finarch specialist will respond within one business day to arrange a call at your convenience.</p>
+          <div class="contact-features">
+            <div class="contact-feature">
+              <div class="contact-feature-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.64A2 2 0 012 .99h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div>
+                <div class="contact-feature-title">No-Obligation Discovery Call</div>
+                <div class="contact-feature-text">30 minutes with a senior specialist. No sales pitch — just an honest conversation about your programme.</div>
+              </div>
+            </div>
+            <div class="contact-feature">
+              <div class="contact-feature-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <div class="contact-feature-title">Response Within 1 Business Day</div>
+                <div class="contact-feature-text">We respond promptly. You'll be connected with the right specialist for your specific platform and programme type.</div>
+              </div>
+            </div>
+            <div class="contact-feature">
+              <div class="contact-feature-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div>
+                <div class="contact-feature-title">Complete Confidentiality</div>
+                <div class="contact-feature-text">All enquiries are treated with strict professional confidentiality. We understand the sensitivity of institutional procurement processes.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form fade-up fade-up-delay-1">
+          <div class="form-title">Start the Conversation</div>
+          <div class="form-subtitle">Complete the form and a specialist will be in touch within one business day.</div>
+          <form action="https://formspree.io/f/your-form-id" method="POST" novalidate aria-label="Contact form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name *</label>
+                <input type="text" id="first-name" name="first_name" required autocomplete="given-name" placeholder="James" />
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name *</label>
+                <input type="text" id="last-name" name="last_name" required autocomplete="family-name" placeholder="Anderson" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Work Email *</label>
+                <input type="email" id="email" name="email" required autocomplete="email" placeholder="james@yourfirm.com" />
+              </div>
+              <div class="form-group">
+                <label for="company">Organisation *</label>
+                <input type="text" id="company" name="company" required autocomplete="organization" placeholder="ABC Pension Fund" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="role">Your Role</label>
+                <select id="role" name="role">
+                  <option value="">Select your role</option>
+                  <option>CIO / CTO</option>
+                  <option>IT Director / Manager</option>
+                  <option>Procurement Director / Manager</option>
+                  <option>Programme / Project Manager</option>
+                  <option>Operations Director / Manager</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="platform">Platform Interest</label>
+                <select id="platform" name="platform">
+                  <option value="">Select platform</option>
+                  <option>SimCorp One</option>
+                  <option>BlackRock Aladdin</option>
+                  <option>Both / Undecided</option>
+                  <option>Other / General Transformation</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group full-width">
+              <label for="message">How Can We Help?</label>
+              <textarea id="message" name="message" placeholder="Briefly describe your transformation programme or challenge…"></textarea>
+            </div>
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Send My Enquiry
+              </button>
+            </div>
+            <p class="form-privacy">Your information is handled in strict confidence. We will never share your details with third parties.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">FINARCH <span>GLOBAL</span></div>
+          <p>Your capital markets digital transformation partner. Specialising in SimCorp One and BlackRock Aladdin for asset managers and pension funds across 10+ countries.</p>
+        </div>
+        <div>
+          <div class="footer-col-title">Services</div>
+          <nav class="footer-links" aria-label="Services">
+            <a href="#services">Strategic Consulting</a>
+            <a href="#services">Implementation</a>
+            <a href="#services">Data Migration</a>
+            <a href="#services">Managed Services</a>
+            <a href="#services">Staff Augmentation</a>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">Platforms</div>
+          <nav class="footer-links" aria-label="Platform expertise">
+            <a href="#platforms">SimCorp One</a>
+            <a href="#platforms">BlackRock Aladdin</a>
+          </nav>
+          <div class="footer-col-title" style="margin-top: 24px;">Industries</div>
+          <nav class="footer-links" aria-label="Industries served">
+            <a href="#">Pension Funds</a>
+            <a href="#">Asset Managers</a>
+            <a href="#">Insurers</a>
+            <a href="#">Sovereign Wealth</a>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <nav class="footer-links" aria-label="Company links">
+            <a href="https://www.finarchglobal.com">About Finarch</a>
+            <a href="https://www.finarchglobal.com">Our Team</a>
+            <a href="https://www.finarchglobal.com">Careers</a>
+            <a href="#contact">Contact Us</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Finarch Global. All rights reserved.</p>
+        <div class="footer-bottom-platforms" aria-label="Platform specializations">
+          <div class="platform-badge simcorp" style="font-size: 12px; padding: 6px 12px;">
+            <span class="platform-dot" aria-hidden="true"></span>SimCorp One
+          </div>
+          <div class="platform-badge aladdin" style="font-size: 12px; padding: 6px 12px;">
+            <span class="platform-dot" aria-hidden="true"></span>BlackRock Aladdin
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    // Nav scroll effect
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    // Scroll-triggered fade-up animations
+    const fadeEls = document.querySelectorAll('.fade-up');
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      fadeEls.forEach(el => observer.observe(el));
+    } else {
+      fadeEls.forEach(el => el.classList.add('visible'));
+    }
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.contains('open');
+        // Close all
+        document.querySelectorAll('.faq-item.open').forEach(i => {
+          i.classList.remove('open');
+          i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+        // Open clicked (if was closed)
+        if (!isOpen) {
+          item.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          const offset = 80;
+          const top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Form submission (Formspree)
+    const form = document.querySelector('form');
+    if (form) {
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const btn = form.querySelector('button[type="submit"]');
+        const originalText = btn.innerHTML;
+        btn.innerHTML = 'Sending…';
+        btn.disabled = true;
+        try {
+          const res = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+          });
+          if (res.ok) {
+            btn.innerHTML = '✓ Enquiry Sent — We\'ll be in touch shortly';
+            btn.style.background = '#1a7a4a';
+            btn.style.borderColor = '#1a7a4a';
+            btn.style.color = '#fff';
+            form.reset();
+          } else {
+            throw new Error();
+          }
+        } catch {
+          btn.innerHTML = 'Something went wrong — please email us directly';
+          btn.disabled = false;
+          setTimeout(() => { btn.innerHTML = originalText; btn.disabled = false; }, 4000);
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>
